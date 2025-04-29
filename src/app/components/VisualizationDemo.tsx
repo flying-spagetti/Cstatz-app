@@ -18,8 +18,8 @@ const matchWinners = [
 
 const COLORS = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8'];
 
-const CustomTooltip = ({ active, payload, label }) => {
-  if (active && payload && payload.length) {
+const CustomTooltip = ({ active, payload, label }: { active: boolean, payload: number, label: string }) => {
+  if (active && payload && payload.length ) {
     return (
       <div className="custom-tooltip bg-white p-4 rounded shadow-lg border border-gray-200">
         <p className="label font-semibold">{`${label}`}</p>

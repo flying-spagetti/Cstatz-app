@@ -94,7 +94,7 @@ const PricingPlans = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-center mt-8 text-gray-600 italic"
         >
-          * All plans are currently free. We're just having a bit of fun with the pricing!
+          * All plans are currently free. We&pos;re just having a bit of fun with the pricing!
         </motion.p>
       </div>
     </div>

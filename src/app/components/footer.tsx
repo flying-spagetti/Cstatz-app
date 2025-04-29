@@ -24,7 +24,7 @@ export default function Footer() {
             <a
               href="https://twitter.com/ImGnAn_30"
               className="transition-colors duration-300 hover:text-accent"
-              style={{ ':hover': { color: colors.accent } }}
+              style={{ color: colors.accent } }
               aria-label="Twitter"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -34,7 +34,7 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/gnaneswar-lopinti-5bb480109/"
               className="transition-colors duration-300 hover:text-accent"
-              style={{ ':hover': { color: colors.accent } }}
+              style={ { color: colors.accent } }
               aria-label="LinkedIn"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ export default function Footer() {
             <a
               href="https://github.com/flying-spagetti"
               className="transition-colors duration-300 hover:text-accent"
-              style={{ ':hover': { color: colors.accent } }}
+              style={ { color: colors.accent } }
               aria-label="GitHub"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

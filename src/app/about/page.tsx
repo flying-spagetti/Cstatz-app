@@ -57,7 +57,7 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-xl text-gray-700 leading-relaxed  from-grey-800 to-blue-800"
         >
-          Whether you're a professional team looking to gain a competitive edge, a fantasy sports enthusiast aiming to optimize your lineup, or a passionate fan seeking deeper insights into the game, CStatz provides the tools and analysis you need to stay ahead of the curve.
+          Whether you&apos;re a professional team looking to gain a competitive edge, a fantasy sports enthusiast aiming to optimize your lineup, or a passionate fan seeking deeper insights into the game, CStatz provides the tools and analysis you need to stay ahead of the curve.
         </motion.p>
 
         <section className="bg-gradient-to-r from-blue-50 to-purple-50 py-16 mt-16 rounded-xl shadow-lg">
@@ -190,7 +190,7 @@ export default function About() {
                 Gnaneswar Lopinti is the visionary founder and CEO of CStatz. With a background in computer science and a passion for sports, Gnaneswar has led the development of our cutting-edge predictive analytics platform.
               </p>
               <blockquote className="text-2xl font-bold italic leading-9 sm:text-3xl sm:leading-10">
-                &ldquo;At CStatz, we're not just predicting the future of sports; we're shaping it. Our goal is to empower every stakeholder in the sports ecosystem with actionable, data-driven insights.&rdquo;
+                &ldquo;At CStatz, we&pos;re not just predicting the future of sports; we&apos;re shaping it. Our goal is to empower every stakeholder in the sports ecosystem with actionable, data-driven insights.&rdquo;
               </blockquote>
               <figcaption className="mt-4">
                 <div className="font-semibold">Gnaneswar Lopinti</div>

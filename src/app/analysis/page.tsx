@@ -216,7 +216,7 @@ const AnalysisPage = () => {
         </AnalysisSection>
 
         <AnalysisSection title="Conditions" icon={SunIcon}>
-          <div className="bg-white rounded-lg shadow-md p-6" style={{ backgroundImage: 'url(https://source.unsplash.com/1600x900/?cricket,pitch)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          <div className="bg-white rounded-lg shadow-md p-6"  style={{ backgroundImage: 'url(https://source.unsplash.com/1600x900/?cricket,pitch)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
             <div className="bg-black bg-opacity-50 p-4 rounded-lg">
               <p className="text-white mb-2"><strong>Weather:</strong> {borderGavaskarData.conditions.weather}</p>
               <p className="text-white"><strong>Pitch:</strong> {borderGavaskarData.conditions.pitch}</p>

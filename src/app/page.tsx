@@ -11,6 +11,7 @@ import Image from 'next/image';
 import VisualizationDemo from './components/VisualizationDemo';
 import PricingPlans from './components/PricingPlans';
 import FAQSection from './components/FAQ';
+import HeadToHeadComparison from './components/Head2Head';
 const colors = {
   primary: '#000000', // Black
   secondary: '#F2F2F2', // Light Gray
@@ -233,8 +234,10 @@ export default function HomePage() {
           </motion.div>
         </div>
       </div>
+      <HeadToHeadComparison />
       <PricingPlans />
       <FAQSection />
+      
 
       {/* Testimonials */}
       <div className="py-16" style={{ backgroundColor: colors.secondary }}>

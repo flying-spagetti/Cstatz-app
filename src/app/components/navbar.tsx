@@ -22,16 +22,16 @@ const Navbar = () => {
       <div className="flex justify-end">
         <div className="hidden md:flex items-center">
           <Link legacyBehavior href="/features">
-            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary, ':hover': { color: colors.accent } }}>Features</a>
+            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary }}>Features</a>
           </Link>
           <Link legacyBehavior href="/analysis">
-            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary, ':hover': { color: colors.accent } }}>Analysis</a>
+            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary }}>Analysis</a>
           </Link>
           <Link legacyBehavior href="/voting">
-            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary, ':hover': { color: colors.accent } }}>Voting</a>
+            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary}}>Voting</a>
           </Link>
           <Link legacyBehavior href="/about">
-            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary, ':hover': { color: colors.accent } }}>About</a>
+            <a className="mr-6 transition duration-300 ease-in-out transform hover:scale-105" style={{ color: colors.secondary }}>About</a>
           </Link>
         </div>
         <Link legacyBehavior href="/login">
@@ -60,22 +60,22 @@ const Navbar = () => {
       {isMenuOpen && (
   <div className="md:hidden absolute top-0 left-0 w-full z-20" style={{ backgroundColor: colors.primary, color: colors.secondary }}>
     <ul className="flex flex-col items-center space-y-6 py-8">
-      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{ ':hover': { backgroundColor: colors.accent } }}>
+      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{  backgroundColor: colors.accent  }}>
         <Link legacyBehavior href="/features">
           <a className="block">Features</a>
         </Link>
       </li>
-      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{ ':hover': { backgroundColor: colors.accent } }}>
+      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{  backgroundColor: colors.accent  }}>
         <Link legacyBehavior href="/analysis">
           <a className="block">Analysis</a>
         </Link>
       </li>
-      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{ ':hover': { backgroundColor: colors.accent } }}>
+      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={ { backgroundColor: colors.accent } }>
         <Link legacyBehavior href="/voting">
           <a className="block">Voting</a>
         </Link>
       </li>
-      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{ ':hover': { backgroundColor: colors.accent } }}>
+      <li className="text-center p-2 transition duration-300 ease-in-out transform hover:scale-105 rounded-md" style={{  backgroundColor: colors.accent}}>
         <Link legacyBehavior href="/about">
           <a className="block">About</a>
         </Link>
